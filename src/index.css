@@ -96,7 +96,7 @@ a:hover {
 .container {
   max-width: 142rem;
   margin: 1rem auto;
-  padding: 8.6rem 2.4rem;
+  padding: 6.6rem 2.4rem;
 }
 
 :is(.section-extra-product,
