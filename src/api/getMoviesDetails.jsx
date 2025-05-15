@@ -1,5 +1,3 @@
-import React from 'react'
-
 const getMovieDetails = async({params}) => {
     console.log(params);
     
