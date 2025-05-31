@@ -25,7 +25,6 @@ const Home = () => {
           </div>
           <div className="section-hero-image">
             <img
-              // src="./assets/images/movies.png"
               src="./movies.png"
               alt="movies poster"
               width="150"

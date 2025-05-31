@@ -1,6 +1,4 @@
 const getMovieDetails = async({params}) => {
-    console.log(params);
-    
     const id = params.movieID;
     
     try {
@@ -8,8 +6,7 @@ const getMovieDetails = async({params}) => {
        const data = response.json();
        return(data);
     } catch (error) {
-        console.log(error);
-        
+        console.log(error);   
     }
 }
 
