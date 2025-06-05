@@ -6,16 +6,13 @@ const MovieDetails = () => {
     const movieData = useLoaderData();
 
     const {
-        Actor,
         Poster,
         Title,
         Runtime,
-        Genre,
         Type,
         Year,
         Plot,
         BoxOffice,
-        imdbID,
         Awards,
         imdbRating,
     } = movieData;
@@ -23,7 +20,6 @@ const MovieDetails = () => {
     const totalMinutes = Runtime.replace("min", "");
     const hours = Math.floor(totalMinutes / 60); // Calculate the number of hours
     const minutes = totalMinutes % 60; // Calculate the remaining minutes
-
     const formattedTime = `${hours}hr ${minutes}min`;
 
     return (

@@ -6,7 +6,6 @@ import Movie from './pages/Movie';
 import Contact, { contactData } from './pages/Contact';
 import AppLayout from './components/layout/AppLayout';
 import ErrorPage from './pages/ErrorPage';
-import GetData from './api/GetData';
 import getData from './api/GetData';
 import MovieDetails from './components/UI/MovieDetails';
 import getMovieDetails from './api/getMoviesDetails';
@@ -49,7 +48,7 @@ const App = () => {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}/>
     </>
   )
 }

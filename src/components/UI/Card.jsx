@@ -3,7 +3,7 @@ import { NavLink } from 'react-router';
 import './Card.css';
 
 const Card = ({ currMovie }) => {
-    const { Poster, Title, Type, Year, imdbID } = currMovie;
+    const { Poster, imdbID } = currMovie;
     return (
         <li className='hero-container'>
             <div className="main-container">

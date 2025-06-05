@@ -10,7 +10,7 @@ const Movie = () => {
     <ul className="container grid grid-four--cols">
       {
         moviesData?.Search?.map((currMovie) => {
-          return <Card key={currMovie.imdbID} currMovie={currMovie} />
+          return <Card key={currMovie?.imdbID} currMovie={currMovie} />
         })
       }
     </ul>
